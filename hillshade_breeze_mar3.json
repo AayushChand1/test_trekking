@@ -368,7 +368,7 @@
       }
     },
     {
-      "id": "raster_all",
+      "id": "raster",
       "type": "raster",
       "source": "raster_all",
       "minzoom": 6,
@@ -385,7 +385,7 @@
       }
     },
     {
-      "id": "hillshade",
+      "id": "raster_all",
       "type": "raster",
       "source": "hillshade",
       "minzoom": 5,
