@@ -100,7 +100,7 @@
   },
   "terrain": {
     "source": "haha",
-    "exaggeration": 1.5
+    "exaggeration": 5
   },
   "sprite": "https://aayushchand1.github.io/Map-style-icons/breeze_circle/breeze_circle_svgs",
   "glyphs": "https://baatocdn.sgp1.cdn.digitaloceanspaces.com/fonts_lite/{fontstack}/{range}.pbf.gz",
