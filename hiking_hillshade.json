@@ -1,0 +1,57 @@
+{
+  "version": 8,
+  "name": "Hiking_hillshade",
+  "metadata": {
+    "openmaptiles:version": "3.x",
+    "maputnik:renderer": "mbgljs",
+    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t",
+    "mapbox:autocomposite": false,
+    "mapbox:type": "template",
+    "openmaptiles:mapbox:owner": "openmaptiles"
+  },
+  "center": [85.32358, 27.69992],
+  "zoom": 12.5,
+  "projection": {"type": ""},
+  "terrain": {"source": "haha", "exaggeration": 1.5},
+  "sources": {
+    "hillshade": {
+      "type": "raster",
+      "tiles": [
+        "https://aayushchand1.github.io/finalll_raster/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14,
+      "scheme": "xyz",
+      "tileSize": 256
+    },
+    "haha": {
+      "type": "raster-dem",
+      "tiles": [
+        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14,
+      "tileSize": 256,
+      "encoding": "terrarium"
+    }
+  },
+  "sprite": "https://aayushchand1.github.io/Map-style-icons/breeze_circle/breeze_circle_svgs",
+  "glyphs": "https://baatocdn.sgp1.cdn.digitaloceanspaces.com/fonts_lite/{fontstack}/{range}.pbf.gz",
+  "layers": [
+    {
+      "id": "raster_all",
+      "type": "raster",
+      "source": "hillshade",
+      "minzoom": 5,
+      "maxzoom": 16,
+      "paint": {
+        "raster-opacity": {
+          "stops": [[5, 0], [6, 0.4], [9, 0.9], [11, 0.9], [13, 0.3], [15, 0]]
+        },
+        "raster-brightness-min": 0.2
+      }
+    }
+  ],
+  "owner": "Baato Maps",
+  "id": "basic"
+}
