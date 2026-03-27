@@ -39,7 +39,7 @@
   "glyphs": "https://baatocdn.sgp1.cdn.digitaloceanspaces.com/fonts_lite/{fontstack}/{range}.pbf.gz",
   "layers": [
     {
-      "id": "Hillshade-copy",
+      "id": "raster_all",
       "type": "hillshade",
       "source": "haha",
       "minzoom": 5,
