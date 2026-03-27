@@ -39,16 +39,37 @@
   "glyphs": "https://baatocdn.sgp1.cdn.digitaloceanspaces.com/fonts_lite/{fontstack}/{range}.pbf.gz",
   "layers": [
     {
-      "id": "raster_all",
-      "type": "raster",
-      "source": "hillshade",
+      "id": "Hillshade-copy",
+      "type": "hillshade",
+      "source": "haha",
       "minzoom": 5,
       "maxzoom": 16,
+      "layout": {"visibility": "visible"},
       "paint": {
-        "raster-opacity": {
-          "stops": [[5, 0], [6, 0.4], [9, 0.9], [11, 0.9], [13, 0.3], [15, 0]]
+        "hillshade-accent-color": "rgba(200, 217, 200, 1)",
+        "hillshade-exaggeration": {
+          "stops": [
+            [6, 0],
+            [6.5, 0.05],
+            [9, 0.1],
+            [14, 0.25],
+            [15, 0.25],
+            [16, 0]
+          ]
         },
-        "raster-brightness-min": 0.2
+        "hillshade-highlight-color": [
+          "rgba(255, 255, 255, 1)"
+        ],
+        "hillshade-shadow-color": [
+          "rgba(58, 58, 58, 1)"
+        ],
+        "hillshade-method": "standard",
+        "hillshade-illumination-direction": [
+          315
+        ],
+        "hillshade-illumination-altitude": [
+          45
+        ]
       }
     }
   ],
