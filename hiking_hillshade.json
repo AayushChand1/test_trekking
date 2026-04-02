@@ -27,7 +27,7 @@
     "haha": {
       "type": "raster-dem",
       "tiles": [
-        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+        "https://aayushchand1.github.io/terrarium_dem/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
       "maxzoom": 14,
