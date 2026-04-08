@@ -20,7 +20,7 @@
         "https://aayushchand1.github.io/finalll_raster/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
-      "maxzoom": 14,
+      "maxzoom": 11,
       "scheme": "xyz",
       "tileSize": 256
     },
@@ -30,7 +30,7 @@
         "https://aayushchand1.github.io/terrarium_dem/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
-      "maxzoom": 14,
+      "maxzoom": 11,
       "tileSize": 256,
       "encoding": "terrarium"
     },
@@ -40,7 +40,7 @@
         "https://aayushchand1.github.io/terrarium_dem/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
-      "maxzoom": 14,
+      "maxzoom": 11,
       "tileSize": 256,
       "encoding": "terrarium"
     }
